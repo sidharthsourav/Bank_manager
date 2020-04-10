@@ -1,0 +1,148 @@
+body
+{
+    margin:0;
+    padding:0;
+    background-image: url("corp.jpg");
+    background-color: cadetblue;
+    background-size: cover;
+    background-position: center;
+    font-family:monserrat;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav
+{
+    background: deepskyblue;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+}
+label.logo
+{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul
+{
+    float :right;
+    margin-right: 20px;
+}
+nav ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav ul li a
+{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius:3px;
+    text-transform: uppercase;
+}
+a.active,a:hover
+{
+    background:dodgerblue ;
+    transition: 0.5s;
+
+}
+.loginbox
+{
+    width: 400px;
+    height: auto;
+    padding-top: 20px;
+    background-color: whitesmoke;
+    color :cadetblue;
+    top :58%;
+    left :50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 3%;
+    box-shadow: 10px 10px 5px grey;
+    border-style: solid;
+}
+h1
+{
+    margin: 10px auto 40px ;
+    padding: 10px;
+    color: cadetblue;
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.loginbox p
+{
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.loginbox big
+{
+    margin: 10px;
+    padding: 10px;
+    font-size: medium;
+    
+}
+.loginbox input
+{
+    width: 87%;
+    padding: 5px;
+    margin-bottom : 10px;
+    margin-left: 20px;
+}
+.loginbox input[type ="text"],input[type="password"],input[type="date"]
+{
+    border: none;
+    border-bottom: 1px double cadetblue;
+    background: transparent;
+    outline :none;
+    height: 20px;
+    color :black;
+    font-size: 16px;
+
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: cadetblue;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor:pointer;
+    background: skyblue;
+    color:white;
+}
+.loginbox a
+{
+    margin :10px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height:20px;
+    color:red;
+
+}
+.loginbox a:hover
+{
+    color:skyblue;
+}

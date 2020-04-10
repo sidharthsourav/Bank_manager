@@ -1,0 +1,109 @@
+body
+{
+
+    margin: 0;
+    padding: 0;
+    background-image: url("backggg.jpg");
+    background-color: cadetblue;
+    background-size: auto;
+    background-position: center;
+    font-family: monserrat;
+
+
+}
+hr
+{
+    border-style: dashed;
+    border-width: 2.5%;
+    margin:30px;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav
+{
+    background: deepskyblue;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+}
+label.logo
+{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul
+{
+    float :right;
+    margin-right: 20px;
+}
+nav ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav ul li a
+{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius:3px;
+    text-transform: uppercase;
+}
+a.active,a:hover
+{
+    background:dodgerblue ;
+    transition: 0.5s;
+
+}
+h1
+{
+    margin: 10px;
+    padding: 20px;
+    color: deepskyblue;
+    text-align: center;
+    font-size:40px ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box
+{
+    width: 60%;
+    height: auto;
+    background-color: white;
+    position :center;
+    transform: translate(35%,1%);
+    box-shadow: darkgray;
+    border-style: solid;
+    border-color:skyblue ;
+    border-radius: 0.5%;
+}
+.box p
+{
+    margin: 30px;
+    padding :0px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.box ul
+{
+    color: black;
+    margin: 30px;
+    padding-right: 20px;
+    font-family: sans-serif;
+    font: size 15px; 
+}
+.box li
+{
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}

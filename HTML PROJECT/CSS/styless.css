@@ -1,0 +1,176 @@
+body
+{
+    margin: 0;
+    padding:0;
+    background-image: url("corp.jpg");
+    background-size: auto;
+    background-position: top;
+    border-radius: 10px;
+    font-family: monserrat;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav
+{
+    background: deepskyblue;
+    height: 80px;
+    width: 100%;
+    border-radius : 10px;
+    position:relative;
+}
+label.logo
+{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul
+{
+    float :right;
+    margin-right: 20px;
+}
+nav ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav ul li a
+{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius:3px;
+    text-transform: uppercase;
+}
+a.active,a:hover
+{
+    background:dodgerblue;
+    transition: .5s;
+
+}
+.box
+{
+    width: 1080px;
+    height: 580px;
+    margin: 20px auto 20px;
+    position: relative;
+    background-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    color: cadetblue;
+}
+.box h1
+{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: monserrat;
+    font-weight: bold;
+    color: cadetblue;
+}
+.ptbox
+{
+    width: 25%;
+    height: 280px;
+    left: 50px;
+    top: 200px;
+    position:absolute;
+    background-color:white;
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 5px;
+    color: cadetblue;
+}
+.ptbox p
+{
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: monserrat;
+}
+.ptbox ul
+{
+    float: none;
+    margin-left: 20px;
+}
+.ptbox ul li
+{
+    display: grid;
+    margin: 20px;
+    color: deepskyblue;
+}
+.vsbox
+{
+    width: 25%;
+    height: 280px;
+    right: 50px;
+    top: 200px;
+    position:absolute;
+    background-color:white;
+    box-sizing: content-box;
+    border-style: solid;
+    border-radius: 5px;
+    color: cadetblue;
+}
+.vsbox p
+{
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: monserrat;
+}
+.vsbox ul
+{
+    float: none;
+    margin-left: 20px;
+}
+.vsbox ul li
+{
+    display: grid;
+    margin: 20px;
+    color: deepskyblue;
+}
+.nsbox
+{
+    width: 25%;
+    height: 280px;
+    right: 400px;
+    top: 200px;
+    position:absolute;
+    background-color: white;
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 5px;
+    color: cadetblue;
+}
+.nsbox p
+{
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: monserrat;
+}
+.nsbox ul
+{
+    float: none;
+    margin-left: 20px;
+}
+.nsbox ul li
+{
+    display: grid;
+    margin: 20px;
+    color: deepskyblue;
+}
+
